@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header{
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+header button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    margin-top: 5px;
+}
+
+
+.banner{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfDsoFBWuOIeC6UtAYjLZUFBGEsJGLaB1sw&s);
+width: 100%;;
+height:400px;
+background-size: cover;
+
+}
+section{
+    background-color: aquamarine;
+    padding-top: 10px;
+    height: 600px;
+}
+
+.row{
+    background-color: aquamarine;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.col{
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    padding-top: 10px;
+    border-radius: 20px;
+    height: 400px;
+    width: 280px;
+}
+
+img:hover{
+    box-shadow: 2px 4px rgb(255, 255, 255);
+}
+section span{
+    color: aquamarine;
+    font-size: 20px;
+}
+
+section button{
+    background-color: white;
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+section button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: thistle;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 10px;
+}
+footer h4{
+    color: white;
+}
+
+@media screen and (max-width:400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    header{
+        width: 450px;
+        background-color: yellowgreen;
+        color: aliceblue;
+        padding: 0px;
+    }
+    .row{
+        background-color: blue;
+        width: 400px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        width: 400px;
+    }
+    .col-3{
+        height: 600px;
+        width: 350px;
+        border: 3px solid black;
+        margin-left: 23px;
+    }
+}
